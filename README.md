@@ -470,12 +470,12 @@ $ git push -u origin master
 ```
 
 You can import the new package `shapes` by using it's fully qualified "importpath"
-as `github.com/prologic/shapes`. Go automatically knows hot to fetch and build
+as `github.com/amadv/shapes`. Go automatically knows hot to fetch and build
 the package given its import path.
 
 Example:
 
-Let's create a simple program using the package `github.com/prologic/shapes`:
+Let's create a simple program using the package `github.com/amadv/shapes`:
 
 ```console
 $ mkdir hello
@@ -490,7 +490,7 @@ package main
 import (
   "fmt"
 
-  "github.com/prologic/shapes"
+  "github.com/amadv/shapes"
 )
 
 func main() {
